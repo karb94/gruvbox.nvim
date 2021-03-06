@@ -61,7 +61,7 @@ local purple = colors.bright_purple
 local aqua = colors.bright_aqua
 local orange = colors.bright_orange
 local gray = colors.gray
-local sign_column = bg1
+local sign_column = none
 
 -- global settings
 local settings = {
@@ -281,13 +281,13 @@ local groups = lush(function()
     GruvboxOrange {fg = orange},
     GruvboxOrangeBold {fg = orange, gui = styles.bold},
 
-    GruvboxRedSign {fg = red, bg = sign_column, gui = invert_signs},
-    GruvboxGreenSign {fg = green, bg = sign_column, gui = invert_signs},
-    GruvboxYellowSign {fg = yellow, bg = sign_column, gui = invert_signs},
-    GruvboxBlueSign {fg = blue, bg = sign_column, gui = invert_signs},
-    GruvboxPurpleSign {fg = purple, bg = sign_column, gui = invert_signs},
-    GruvboxAquaSign {fg = aqua, bg = sign_column, gui = invert_signs},
-    GruvboxOrangeSign {fg = orange, bg = sign_column, gui = invert_signs},
+    GruvboxRedSign {fg = red, bg = sign_column, gui = styles.bold},
+    GruvboxGreenSign {fg = green, bg = sign_column, gui = styles.bold},
+    GruvboxYellowSign {fg = yellow, bg = sign_column, gui = styles.bold},
+    GruvboxBlueSign {fg = blue, bg = sign_column, gui = styles.bold},
+    GruvboxPurpleSign {fg = purple, bg = sign_column, gui = styles.bold},
+    GruvboxAquaSign {fg = aqua, bg = sign_column, gui = styles.bold},
+    GruvboxOrangeSign {fg = orange, bg = sign_column, gui = styles.bold},
 
     GruvboxRedUnderline {gui = styles.undercurl, sp = red},
     GruvboxGreenUnderline {gui = styles.undercurl, sp = green},
