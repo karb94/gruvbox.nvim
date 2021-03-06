@@ -812,6 +812,9 @@ local groups = lush(function()
     LspDiagnosticsDefaultHint {GruvboxAqua},
     LspDiagnosticsSignHint {GruvboxAquaSign},
     LspDiagnosticsUnderlineHint {GruvboxAquaUnderline},
+    LspReferenceRead {GruvboxPurpleBold},
+    LspReferenceText {GruvboxPurpleBold},
+    LspReferenceWrite {GruvboxPurpleBold},
     -- signature
     SignatureMarkText {GruvboxBlueSign},
     SignatureMarkerText {GruvboxPurpleSign},
