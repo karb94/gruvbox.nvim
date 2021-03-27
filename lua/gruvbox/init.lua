@@ -318,7 +318,7 @@ local groups = lush(function()
     SignColumn {bg = sign_column},
     IncSearch {fg = hls_cursor, bg = bg0, gui = styles.inverse},
     LineNr {fg = bg4, bg = number_column},
-    CursorLineNr {fg = yellow, bg = bg1},
+    CursorLineNr {fg = yellow, bg = number_column, gui = styles.bold},
     MatchParen {bg = bg3, gui = styles.bold},
     ModeMsg {GruvboxYellowBold},
     MoreMsg {GruvboxYellowBold},
