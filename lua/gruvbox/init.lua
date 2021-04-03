@@ -385,7 +385,7 @@ local groups = lush(function()
     Bold {gui = styles.bold},
     Italic {gui = styles.italic},
     Ignore {},
-    Error {fg = red, gui = styles.bold .. "," .. styles.inverse},
+    Error {fg = red, gui = styles.bold},
     Todo {fg = fg0, gui = styles.bold .. "," .. italic_comments},
     -- netrw
     netrwDir {GruvboxAqua},
